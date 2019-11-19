@@ -18,13 +18,16 @@ namespace snake
 
             int x2 = 4;
             int y2 = 5;
-            char sym2 = 'a';
+            char sym2 = 's';
 
             Draw(x2, y2, sym2);
 
             Console.ReadLine();
         }
-
+         /*
+          TODO
+          make function separately
+             */
         static void Draw(int x, int y, char sym)
         {
             Console.SetCursorPosition(x, y);
